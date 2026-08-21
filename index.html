@@ -469,7 +469,7 @@ function loadAll() {
         status:     statusOverrides[id] || e["Status"] || "Open",
         gmailLink:  e["Gmail Link"] || "",
         msgCount:   e["Message Count"] || "",
-        notes:      e["Notes"] || ""  ""
+        notes:      e["Notes"] || ""
       };
     });
     document.getElementById("lastLoaded").textContent = "Last loaded: " + new Date().toLocaleTimeString();
